@@ -1,0 +1,20 @@
+# Variant MCP
+
+Variant MCP is the hosted Model Context Protocol integration for Variant, an AI-native presentation editor for HTML/CSS slide decks.
+
+Endpoint: https://mcp.variant.art/mcp
+
+Use HTTP transport. The public repository documents setup and examples; the production server implementation is hosted by Variant and maintained in Variant's internal codebase.
+
+Key docs:
+
+- README.md
+- docs/quickstart.md
+- docs/authentication.md
+- docs/tools.md
+- docs/use-cases.md
+- docs/troubleshooting.md
+- docs/faq.md
+
+Core tools include decks.list, deck.get, deck.create, deck.update, deck.listSlides, slides.batchUpdate, slide.get, slide.edit, slide.preview, asset.upload, deck.export, comments.list, comments.update, brand.context, and brand.update.
+

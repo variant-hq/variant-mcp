@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "variant": {
+      "transport": "http",
+      "url": "https://mcp.variant.art/mcp",
+      "headers": {
+        "Authorization": "Bearer YOUR_VARIANT_MCP_TOKEN"
+      }
+    }
+  }
+}

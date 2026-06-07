@@ -1,0 +1,24 @@
+name: Verify
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate JSON examples
+        run: |
+          for file in examples/*.json; do
+            python3 -m json.tool "$file" > /dev/null
+          done
+      - name: Check for placeholder token leaks
+        run: |
+          if grep -R -nE 'Bearer ss_|Bearer sk_|gho_|CLERK_|POSTHOG_|DATABASE_URL' README.md docs examples AGENTS.md SECURITY.md llms.txt; then
+            echo "Potential secret or private environment detail found."
+            exit 1
+          fi
