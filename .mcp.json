@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "variant": {
+      "transport": "streamable-http",
+      "url": "https://mcp.variant.art/mcp"
+    }
+  }
+}

@@ -9,6 +9,8 @@ Use HTTP transport. The public repository documents setup and examples; the prod
 Key docs:
 
 - README.md
+- .plugin/plugin.json
+- .mcp.json
 - docs/clients/claude-code.md
 - docs/clients/cursor.md
 - docs/clients/codex.md

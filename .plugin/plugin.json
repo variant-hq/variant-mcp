@@ -1,0 +1,21 @@
+{
+  "name": "variant-mcp",
+  "version": "1.0.0",
+  "description": "Hosted MCP server for creating, editing, previewing, and exporting Variant presentation decks.",
+  "author": {
+    "name": "Variant",
+    "url": "https://variant.art"
+  },
+  "homepage": "https://variant.art/mcp",
+  "repository": "https://github.com/variant-hq/variant-mcp",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "cursor",
+    "presentations",
+    "slides",
+    "ai-tools"
+  ],
+  "mcpServers": "./.mcp.json"
+}

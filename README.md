@@ -14,6 +14,11 @@ Connect your MCP client to:
 https://mcp.variant.art/mcp
 ```
 
+This repository also includes Open Plugins metadata for directories such as Cursor Directory:
+
+- `.plugin/plugin.json`
+- `.mcp.json`
+
 For clients that support remote HTTP MCP servers and OAuth, use:
 
 ```json
