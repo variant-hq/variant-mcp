@@ -121,13 +121,21 @@ Use the smallest scope set that fits the client. Read-only review, slide editing
 - [Quickstart](docs/quickstart.md)
 - [Authentication](docs/authentication.md)
 - [Tools](docs/tools.md)
+- [Prompt examples](docs/prompts.md)
+- [Schema summary](docs/schema-summary.md)
 - [Use cases](docs/use-cases.md)
 - [Troubleshooting](docs/troubleshooting.md)
 - [FAQ](docs/faq.md)
+- [Claude Code](docs/clients/claude-code.md)
+- [Cursor](docs/clients/cursor.md)
+- [Codex](docs/clients/codex.md)
 
 ## Links
 
 - Variant: https://variant.art
+- Canonical Variant MCP page: https://variant.art/mcp
+- Setup guide: https://variant.art/docs/mcp
+- Tools reference: https://variant.art/docs/mcp-tools
 - App: https://app.variant.art
 - Hosted MCP endpoint: https://mcp.variant.art/mcp
 - Model Context Protocol: https://modelcontextprotocol.io
@@ -137,4 +145,3 @@ Use the smallest scope set that fits the client. Read-only review, slide editing
 Open an issue in this repository for documentation gaps, setup problems, and client-specific examples. Do not post tokens, deck contents, private prompts, or account secrets.
 
 For account-specific access problems, use Variant support from the app.
-
