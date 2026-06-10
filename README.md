@@ -14,10 +14,13 @@ Connect your MCP client to:
 https://mcp.variant.art/mcp
 ```
 
-This repository also includes Open Plugins metadata for directories such as Cursor Directory:
+This repository also includes registry and directory metadata:
 
-- `.plugin/plugin.json`
-- `.mcp.json`
+- `server.json` — official MCP registry manifest
+- `.plugin/plugin.json` — Open Plugins metadata (Cursor Directory and similar)
+- `.mcp.json` — generic client config
+- `docs/registry-pack.md` — reusable metadata pack for directory submissions
+- `assets/` — logo, social card, and screenshots for listings
 
 For clients that support remote HTTP MCP servers and OAuth, use:
 
@@ -131,6 +134,7 @@ Use the smallest scope set that fits the client. Read-only review, slide editing
 - [Use cases](docs/use-cases.md)
 - [Troubleshooting](docs/troubleshooting.md)
 - [FAQ](docs/faq.md)
+- [Registry metadata pack](docs/registry-pack.md)
 - [Claude Code](docs/clients/claude-code.md)
 - [Cursor](docs/clients/cursor.md)
 - [Codex](docs/clients/codex.md)
