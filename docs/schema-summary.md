@@ -21,8 +21,15 @@ Canonical tools reference: https://variant.art/docs/mcp-tools
 - `deck.replaceAllSlides`
 - `deck.versions.list`
 - `deck.version.restore`
+- `deck.trash`
+- `deck.recover`
+- `deck.shareLinks.list`
+- `deck.shareLinks.create`
+- `deck.shareLinks.revoke`
+- `deck.activity.list`
 - `deck.listSlides`
 - `deck.export`
+- `deck.export.status`
 
 ## Slide Tools
 
@@ -31,6 +38,8 @@ Canonical tools reference: https://variant.art/docs/mcp-tools
 - `slide.duplicate`
 - `slide.move`
 - `slide.replace`
+- `slide.versions.list`
+- `slide.version.restore`
 - `slide.preview`
 - `slides.batchUpdate`
 - `selection.get`

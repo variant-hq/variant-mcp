@@ -30,4 +30,4 @@ Canonical web pages:
 - https://variant.art/docs/mcp-tools
 - https://variant.art/docs/presentation-mcp-server
 
-Core tools include decks.list, deck.get, deck.create, deck.update, deck.listSlides, slides.batchUpdate, slide.get, slide.edit, slide.preview, asset.upload, deck.export, comments.list, comments.update, brand.context, and brand.update.
+Core tools include decks.list, deck.get, deck.create, deck.update, deck.listSlides, slides.batchUpdate, slide.get, slide.edit, slide.preview, asset.upload, deck.export, deck.export.status, deck.shareLinks.create, deck.trash, deck.activity.list, slide.versions.list, comments.list, comments.update, brand.context, and brand.update. The server supports OAuth with refresh tokens and scoped bearer tokens.

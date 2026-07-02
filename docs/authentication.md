@@ -23,6 +23,8 @@ Use OAuth when:
 - You want browser-based sign-in.
 - You want session revocation tied to the account.
 
+OAuth sessions include refresh tokens, so clients stay signed in without repeating the browser flow. Refresh tokens rotate on every use; if a rotated token is presented again, the whole session is revoked and the client must sign in again.
+
 ## Bearer Tokens
 
 Bearer tokens are useful for headless and controlled environments:

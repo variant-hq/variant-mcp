@@ -84,6 +84,12 @@ The hosted server currently exposes these MCP tools:
 | `deck.replaceAllSlides` | Replace the full slide list. |
 | `deck.versions.list` | List recent saved deck versions. |
 | `deck.version.restore` | Restore a saved deck version. |
+| `deck.trash` | Move a deck to the trash. |
+| `deck.recover` | Recover a deck from the trash. |
+| `deck.shareLinks.list` | List a deck's active share links. |
+| `deck.shareLinks.create` | Create a share link and return its viewer URL. |
+| `deck.shareLinks.revoke` | Revoke a share link. |
+| `deck.activity.list` | List recent activity on a deck. |
 | `deck.listSlides` | List slide numbers, titles, sizes, formats, revisions, and URLs. |
 | `slides.batchUpdate` | Create, replace, update, or delete multiple slides in order. |
 | `slide.get` | Get slide metadata, optional content, selected elements, and URLs. |
@@ -91,10 +97,13 @@ The hosted server currently exposes these MCP tools:
 | `slide.duplicate` | Duplicate a slide. |
 | `slide.move` | Move a slide. |
 | `slide.replace` | Replace one slide wholesale. |
+| `slide.versions.list` | List saved versions of one slide. |
+| `slide.version.restore` | Restore a saved slide version. |
 | `slide.preview` | Render a slide preview as PNG or JPEG. |
 | `selection.get` | Return the editor's latest selected slide and element IDs. |
 | `asset.upload` | Upload deck or brand assets. |
-| `deck.export` | Start a deck export and return status or a download URL. |
+| `deck.export` | Export a deck. Runs synchronously by default, or as a background job with `async: true`. |
+| `deck.export.status` | Check the status of an export job. |
 | `comments.list` | List deck comments. |
 | `comments.update` | Create, update, resolve, or delete comments. |
 | `brand.context` | Read workspace brand guidelines and brand assets. |
