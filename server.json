@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "art.variant/variant",
+  "description": "Create, edit, preview, and export HTML presentation decks with AI agents. 22 tools for decks, slides, previews, brand context, comments, and exports.",
+  "status": "active",
+  "websiteUrl": "https://variant.art/mcp",
+  "repository": {
+    "url": "https://github.com/variant-hq/variant-mcp",
+    "source": "github"
+  },
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.variant.art/mcp"
+    }
+  ]
+}
